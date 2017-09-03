@@ -25,7 +25,7 @@ Class Admin extends MY_Controller
     {
         if($this->session->userdata('login'))
         {
-           
+           //da sua xong
         }
         redirect(admin_url('login'));
     }
