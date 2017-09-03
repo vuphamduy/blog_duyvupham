@@ -4,6 +4,11 @@ Class Admin extends MY_Controller
   
     function index()
     {
+      //duyvupham1902 updadte
+      
+      
+      //end update duyvupham1902
+      
         /*$input = array();
         $list = $this->admin_model->get_list($input);
         $this->data['list'] = $list;
