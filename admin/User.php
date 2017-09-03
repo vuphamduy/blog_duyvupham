@@ -24,7 +24,7 @@ Class User extends MY_Controller
     }
     
   
-    function register()
+    function ()
     {
        
         if($this->session->userdata('user_id_login'))

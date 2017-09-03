@@ -25,8 +25,7 @@ Class Admin extends MY_Controller
     {
         if($this->session->userdata('login'))
         {
-            $this->session->unset_userdata('login');
-            $this->session->unset_userdata("username");
+           
         }
         redirect(admin_url('login'));
     }
